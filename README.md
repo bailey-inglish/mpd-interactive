@@ -25,4 +25,5 @@ Thank you to Dr. Kyle Walker for his guide to using Tigris to plot Zip Code Tabu
 
 As requested by some of the authors, certain attributions and citations are below:
 Rozzi, G. C. (2021). Zipcoder: Advancing the analysis of spatial data at the ZIP code level in R. *Software Impacts*, 9, 100099. https://doi.org/10.1016/j.simpa.2021.100099 [Article](https://www.sciencedirect.com/science/article/pii/S2665963821000373/) made available under CC BY-NC-ND 4.0. [Package](https://github.com/gavinrozzi/zipcodeR) published under GNU GPL3.
+
 Walker, K. E. (2023). Chapter 5: Census geographic data and applications in R. In *Analyzing US Census Data: Methods, Maps, and Models in R*. CRC Press. Retrieved November 29, 2023, from https://walker-data.com/census-r/index.html. Published under CC BY-NC-ND 4.0.
