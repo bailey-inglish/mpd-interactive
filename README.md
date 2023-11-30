@@ -1,8 +1,8 @@
 # mpd-interactive
-An open-source interactive choropleth map generator for Medicare Part D data, crosswalked with CMS Open Payments data.
+An open-source interactive choropleth map generator for Medicare Part D data, crosswalked with CMS Open Payments data. [Try it out now](https://bailey-inglish.shinyapps.io/mpd-explorer/).
 
 ## Code Access
-The code used for the data analysis, webapp, and deployment are available here. `mpd-cleaner` was used first to pre-process the data by zip code. `mpd-explorer` then links the summaries to the shapefiles for Texas zip codes and creates an interface for creating choropleth maps with the data. `deploy` contains the code used to deploy the app on shinyapps.io (excluding tokens).
+The code used for the data analysis, webapp, and deployment are available in this repository. `mpd-cleaner` was used first to pre-process the data by zip code. `mpd-explorer` then links the summaries to the shapefiles for Texas zip codes and creates an interface for creating choropleth maps with the data. `deploy` contains the code used to deploy the app on shinyapps.io (excluding tokens).
 
 ## Data
 The data used is too large to upload onto GitHub, so it is available on Box: [https://utexas.box.com/v/mpd-interactive-data](https://utexas.box.com/v/mpd-interactive-data).
@@ -24,6 +24,8 @@ The following packages are used in this app:
  - ZipcodeR
 
 Thank you to Dr. Kyle Walker for his guide to using Tigris to plot Zip Code Tabulation Areas (ZCTAs) with ggplot in Chapters 5-6 of [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html). Special thanks to Dr. Layla Parast for teaching me data science :)
+
+The data used in this analysis is all in the public domain, as provided by the federal government for public use through the Centers for Medicaid and Medicare Services and the US Census Bureau.
 
 As requested by some of the authors, certain attributions and citations are below:
 
