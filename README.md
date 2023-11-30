@@ -15,6 +15,16 @@ To download the Part D and Open Payments datasets, the built-in web viewer inter
 ## Methodology
 Zip codes without data available are simply not displayed. Data is only used for 2021, although data is available from the Centers for Medicare and Medicaid Services (CMS) and should be compatible. Note that in some cases, because the Medicare data is only available on a prescriber level, the data for a region is the average *across prescribers*, rather than across *patients*.
 
+## Variable Definitions
+The following variables were calculated and are available to select from the dropdown in the app:
+
+- *Proportion of Prescribers Receiving Compensation* (`prop_comp`): The proportion of all prescribers in a zip code who are receiving any amount of reported compensation from drug companies in relation to one or more drug product(s).
+- *Mean Compensation Received by Prescribers* (`avg_comp`): The mean amount of reported compensation rendered to prescribers in a zip code by drug companies in relation to one or more drug product(s).
+- *Proportion of White, Non-Hispanic Beneficiaries* (`prop_white `): The mean number of beneficiaries per prescriber that are identified by CMS as "White, Non-Hispanic" in a zip code divided by the mean number of total beneficiaries per prescriber that zip code. Values >1 are due to NA exclusion from mean calculations.
+- *Proportion of All Claims Used for Opioids* (`prop_opioid`): The mean number of opioid claims from prescribers in a zip code divided by the mean number of total claims from prescribers in that zip code.
+- *Mean Drug Spending Per Beneficiary* (`avg_spending_per_bene`): The mean drug costs billed to Medicare by prescribers in a zip code divided by the mean number of beneficiaries in that zip code.
+- *Mean Average Prescriber Patient Patient Risk Score (HCC)* (`avg_risk_score`): The mean of the average risk score on the Hierarchical Condition Category (HCC) model of prescribers in a zip code. Redundant mean/average is intentional, HCC is only provided in the data as the average score of patients in each prescriber's care.
+
 ## Credits & Thanks
 The following packages are used in this app:
 
